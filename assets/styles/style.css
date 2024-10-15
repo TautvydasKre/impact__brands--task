@@ -1,0 +1,562 @@
+/**************************/
+/* SECTION HERO */
+/**************************/
+
+.main__nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+  position: relative;
+  color: #0b0a0c;
+}
+
+.main__nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.main__nav-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  max-width: 5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.main__nav-link:visited,
+.main__nav-link:active {
+  color: #0b0a0c;
+}
+
+/* Keep logo centered */
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Hero Section */
+.section__hero {
+  position: relative;
+  height: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero__img-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero__text-box {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  max-width: 60.2rem;
+  top: 30rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heading__primary {
+  font-size: 4.8rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 1.2rem 14rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 18rem;
+  border-radius: 15px;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.benefits__section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  min-height: 20rem;
+}
+
+.benefits {
+  display: flex;
+  max-width: 92.7rem;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit {
+  background-color: #f9e8e7;
+  height: 9.8rem;
+  width: 21.3rem;
+  margin: 0 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: background-color 0.3s ease;
+}
+
+.svg__icon {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+  transition: fill 0.3s ease;
+  fill: #0b0a0c;
+}
+
+.benefit:hover .svg__icon {
+  fill: red;
+}
+
+.svg__icon--text {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.svg__icon--text span {
+  display: block;
+  margin-left: 1rem;
+  line-height: 1;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 4rem 0;
+  background-color: #0b0a0c;
+}
+
+.subscribe .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subscribe h2 {
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.sub__el {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.sub__el:hover {
+  transform: scale(1.1);
+}
+
+.sub__el svg {
+  margin-bottom: 1rem;
+}
+
+.sub__el p {
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.sub__el span {
+  display: block;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.section__transform {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.svg__icon {
+  width: 4.25rem;
+  height: 4.6rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 4rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.transform__el {
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.transform__el img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1.5rem;
+  transition: fill 0.3s ease;
+}
+
+.transform__el p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #333;
+  width: 15.5rem;
+}
+
+.transform__el:hover .svg__icon path {
+  fill: red;
+}
+
+.certified {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: #f5f5f5;
+}
+
+.certified__container {
+  display: flex;
+  align-items: center;
+}
+.certified__container p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  max-width: 30rem;
+}
+
+.usda__logo {
+  width: 10.8rem;
+  height: 10rem;
+  margin-right: 1rem;
+}
+
+.order-carousel {
+  position: relative;
+  background-color: #f9e8e7;
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 2rem;
+}
+.order h2 {
+  font-size: 5rem;
+}
+
+.order h2 span {
+  color: #c2110e;
+}
+
+.slides-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.order__content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.order__info {
+  flex: 1;
+  margin-right: 2rem;
+  max-width: 30rem;
+  text-align: start;
+}
+
+.order__info h3 {
+  font-size: 2.2rem;
+  padding-bottom: 5rem;
+}
+
+.order__info p {
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+}
+.order__info span {
+  font-size: 1.6rem;
+}
+
+.order__images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 30rem;
+}
+
+.order__images img {
+  width: 100%;
+  height: auto;
+}
+
+.order__images figure {
+  margin: 0;
+  text-align: center;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.prev,
+.next {
+  background-color: transparent;
+  color: #0b0a0c;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.bubble {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.5rem;
+  background-color: transparent;
+  border: solid 0.1rem #0b0a0c;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bubble.active {
+  background-color: #0b0a0c;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.btn__order {
+  display: block;
+  margin: 2rem auto;
+  padding: 1.4rem 12rem;
+  background-color: #0b0a0c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+.process {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.process h2 {
+  font-size: 4.8rem;
+  padding-bottom: 5rem;
+}
+
+.svg__frame--container {
+  position: relative;
+}
+.frame {
+  background: none;
+}
+.left__side--frame1 {
+  position: absolute;
+  background: none;
+  z-index: 1000;
+  top: 12rem;
+  left: 20rem;
+}
+.left__side--frame2 {
+  position: absolute;
+  background: none;
+  top: 43rem;
+  left: 20rem;
+}
+.right__side--frame1 {
+  position: absolute;
+  background: none;
+  top: 28rem;
+  right: 20rem;
+}
+.right__side--frame2 {
+  position: absolute;
+  background: none;
+  top: 60rem;
+  right: 20rem;
+}
+.midle__frame--dot1 {
+  position: absolute;
+  left: 59.5rem;
+}
+.midle__frame--dot2 {
+  position: absolute;
+  left: 60rem;
+  bottom: 0;
+}
+
+.left__frame--dot1 {
+  position: absolute;
+  top: 11.5rem;
+  left: 20rem;
+}
+.left__frame--dot2 {
+  position: absolute;
+  top: 42.5rem;
+  left: 20rem;
+}
+.right__frame--dot1 {
+  position: absolute;
+  top: 27.5rem;
+  right: 20rem;
+}
+.right__frame--dot2 {
+  position: absolute;
+  top: 59.5rem;
+  right: 20rem;
+}
+
+.text__framed--first {
+  position: absolute;
+  top: -3rem;
+  left: 17rem;
+  text-align: right;
+  font-size: 1.6rem;
+  max-width: 35rem;
+}
+
+.first__buble--icon {
+  position: absolute;
+  top: 9rem;
+  right: 58rem;
+}
+
+.second__buble--icon {
+  position: absolute;
+  top: 25rem;
+  right: 58rem;
+}
+
+.third__buble--icon {
+  position: absolute;
+  top: 41.5rem;
+  right: 58rem;
+}
+
+.fourth__buble--icon {
+  position: absolute;
+  top: 57rem;
+  right: 58rem;
+}
+
+.text__paragraph--position1 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.text__framed--second {
+  position: absolute;
+  top: 15rem;
+  right: 17rem;
+  text-align: left;
+  font-size: 1.6rem;
+  max-width: 35rem;
+}
+
+.text__paragraph--position2 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.text__framed--third {
+  position: absolute;
+  top: 30rem;
+  left: 17rem;
+  text-align: right;
+  font-size: 1.6rem;
+  max-width: 36rem;
+}
+
+.text__paragraph--position3 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.text__framed--fourth {
+  position: absolute;
+  top: 45rem;
+  right: 17rem;
+  text-align: left;
+  font-size: 1.6rem;
+  max-width: 36rem;
+}
+
+.text__paragraph--position4 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
