@@ -1,5 +1,5 @@
 /**************************/
-/* SECTION HERO */
+/* NAV */
 /**************************/
 
 .main__nav {
@@ -18,29 +18,42 @@
   margin: 0;
   padding: 0;
   flex-grow: 1;
+  justify-content: center;
 }
 
 .main__nav-link {
   text-decoration: none;
   font-size: 1.6rem;
   padding: 0 1rem;
-  max-width: 5rem;
-  line-height: 2rem;
-  font-weight: 600;
+  font-weight: 400;
 }
-.main__nav-link:visited,
-.main__nav-link:active {
+
+.logo {
+  margin-left: 1rem;
+}
+
+.main__nav-link:first-child {
+  margin-right: 60rem;
+}
+
+.main__nav-link:nth-child(1) {
+  margin-left: -60rem;
+}
+
+.main__nav-link:visited {
   color: #0b0a0c;
 }
 
-/* Keep logo centered */
 .logo {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/* Hero Section */
+/**************************/
+/* SECTION HERO */
+/**************************/
+
 .section__hero {
   position: relative;
   height: 70rem;
@@ -79,7 +92,7 @@
 }
 
 .btn {
-  background-color: red;
+  background-color: #c2110e;
   color: white;
   border: none;
   padding: 1.2rem 14rem;
@@ -90,6 +103,10 @@
   font-size: 2.2rem;
   font-weight: 400;
 }
+
+/**************************/
+/* SECTION BENEFITS */
+/**************************/
 
 .benefits__section {
   width: 100%;
@@ -129,7 +146,7 @@
 }
 
 .benefit:hover .svg__icon {
-  fill: red;
+  fill: #c2110e;
 }
 
 .svg__icon--text {
@@ -142,6 +159,10 @@
   margin-left: 1rem;
   line-height: 1;
 }
+
+/**************************/
+/* SECTION SUBSCRIBE */
+/**************************/
 
 .subscribe {
   text-align: center;
@@ -159,6 +180,7 @@
 .subscribe h2 {
   width: 100%;
   font-size: 2rem;
+  font-weight: 400;
   margin-bottom: 2rem;
   color: #fff;
 }
@@ -194,6 +216,10 @@
   font-size: 1.1rem;
   margin: 0.5rem 0;
 }
+
+/**************************/
+/* SECTION TRANSFORM */
+/**************************/
 
 .section__transform {
   padding: 5rem 0;
@@ -248,8 +274,12 @@ h2 {
 }
 
 .transform__el:hover .svg__icon path {
-  fill: red;
+  fill: #c2110e;
 }
+
+/**************************/
+/* SECTION CERTIFIED */
+/**************************/
 
 .certified {
   display: flex;
@@ -268,6 +298,7 @@ h2 {
   font-size: 1.6rem;
   font-weight: 400;
   max-width: 30rem;
+  margin-left: 4rem;
 }
 
 .usda__logo {
@@ -275,6 +306,10 @@ h2 {
   height: 10rem;
   margin-right: 1rem;
 }
+
+/**************************/
+/* SECTION ORDER */
+/**************************/
 
 .order-carousel {
   position: relative;
@@ -285,6 +320,7 @@ h2 {
 }
 .order h2 {
   font-size: 5rem;
+  padding-bottom: 5rem;
 }
 
 .order h2 span {
@@ -325,6 +361,7 @@ h2 {
 }
 
 .order__info h3 {
+  margin-top: 4rem;
   font-size: 2.2rem;
   padding-bottom: 5rem;
 }
@@ -332,6 +369,7 @@ h2 {
 .order__info p {
   font-size: 1.6rem;
   padding-bottom: 3rem;
+  letter-spacing: 1.5px;
 }
 .order__info span {
   font-size: 1.6rem;
@@ -342,6 +380,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   max-width: 30rem;
+  margin-left: 5rem;
 }
 
 .order__images img {
@@ -411,6 +450,10 @@ h2 {
   font-size: 1rem;
   border-radius: 15px;
 }
+
+/**************************/
+/* SECTION PROCESS */
+/**************************/
 
 .process {
   padding-top: 5rem;
@@ -559,4 +602,200 @@ h2 {
 .text__paragraph--position4 {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+/**************************/
+/* SECTION FAQ'S */
+/**************************/
+
+.faq__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+}
+
+.faq__container h2 {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.faq__items--container {
+  max-width: 60rem;
+  width: 100%;
+  text-align: left;
+  margin-right: 20rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.faq-item h3 {
+  margin-top: 4rem;
+}
+
+.faq-item p:first-child {
+  margin-top: 2rem;
+}
+
+.faq-item .faq-question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 1rem;
+}
+
+.faq-arrow {
+  width: 3rem;
+  height: 1rem;
+  transition: transform 0.2s;
+}
+
+.faq-question.active .faq-arrow {
+  transform: rotate(180deg);
+}
+
+/************************************* MISSION PAGE STYLE *************************************/
+
+/********************************/
+/****** SECTION NO__EXCUSES ******/
+/********************************/
+.no__exucuses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #f5f5f5;
+}
+
+.no__exucuses h2 {
+  font-size: 4.4rem;
+}
+
+.no__exucuses p {
+  font-size: 1.6rem;
+}
+
+.no__exucuses span {
+  display: block;
+}
+
+/********************************/
+/****** SECTION MISSION ******/
+/********************************/
+
+.mission__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+}
+
+.mission__row.reverse-row {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "text img";
+  text-align: right;
+}
+
+.mission__row.reverse-row .mission__text {
+  grid-area: text;
+}
+
+.mission__row.reverse-row .mission__img {
+  grid-area: img;
+}
+
+.mission__img {
+  width: 45rem;
+  height: auto;
+  align-items: end;
+}
+
+.mission__text--one {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-self: left;
+  text-align: left;
+}
+
+.mission__text--two {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-self: right;
+  text-align: left;
+}
+
+.grid__heading {
+  font-size: 4.4rem;
+}
+
+.grid__text {
+  font-size: 1.6rem;
+}
+
+.img__one,
+.img__three,
+.img__five {
+  justify-self: right;
+  margin-right: 4rem;
+}
+
+.img__two,
+.img__four,
+.img__six {
+  margin-left: 4rem;
+}
+
+.mission__row--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.mission__row--center h2 {
+  font-size: 4.8rem;
+  margin-top: 3rem;
+}
+
+.mission__row--center span {
+  display: block;
+}
+
+.mission__row--center p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.mission__row--center ul li {
+  font-size: 1.6rem;
+}
+
+.mission__video {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  justify-self: right;
+  margin-right: 4rem;
+}
+
+.mission__row {
+  max-height: 45rem;
+  overflow: hidden;
 }

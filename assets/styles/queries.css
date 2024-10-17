@@ -1,0 +1,1076 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  /**************************/
+  /* NAV */
+  /**************************/
+
+  .main__nav {
+    height: 6rem;
+  }
+
+  .main__nav-link {
+    font-size: 1.4rem;
+    padding: 0 0.8rem;
+  }
+
+  .main__nav-link:first-child {
+    margin-right: 50rem;
+  }
+
+  .main__nav-link:nth-child(1) {
+    margin-left: -50rem;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+  /**************************/
+  /* SECTION HERO */
+  /**************************/
+
+  .section__hero {
+    height: 50rem;
+  }
+
+  .hero__text-box {
+    top: 20rem;
+    max-width: 50rem;
+  }
+
+  .heading__primary {
+    font-size: 3.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    padding: 1rem 8rem;
+    margin-top: 12rem;
+    font-size: 1.8rem;
+  }
+  /**************************/
+  /* SECTION BENEFITS */
+  /**************************/
+  .benefits {
+    max-width: 80rem;
+  }
+
+  .benefit {
+    width: 18rem;
+    height: 8rem;
+    margin: 0 1rem;
+  }
+
+  .svg__icon {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+  }
+
+  .svg__icon--text {
+    font-size: 1rem;
+  }
+
+  .svg__icon--text span {
+    margin-left: 0.5rem;
+  }
+  /**************************/
+  /* SECTION SUBSCRIBE */
+  /**************************/
+
+  .subscribe h2 {
+    font-size: 1.6rem;
+  }
+
+  .sub__el {
+    padding: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  .sub__el p {
+    font-size: 1.2rem;
+  }
+
+  .sub__el span {
+    font-size: 1rem;
+  }
+  /**************************/
+  /* SECTION CERTIFIED */
+  /**************************/
+
+  .certified {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .certified__container p {
+    font-size: 1.4rem;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 1rem;
+  }
+
+  .usda__logo {
+    width: 8rem;
+    height: 7rem;
+    margin-right: 0.5rem;
+  }
+  /**************************/
+  /* SECTION ORDER */
+  /**************************/
+
+  .order h2 {
+    font-size: 4rem;
+  }
+
+  .order__info {
+    margin-right: 3rem;
+    max-width: 28%;
+  }
+
+  .order__info h3 {
+    font-size: 1.8rem;
+  }
+
+  .order__info p {
+    font-size: 1.4rem;
+  }
+
+  .order__images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carousel-controls {
+    bottom: 6rem;
+  }
+
+  .btn__order {
+    padding: 1.4rem 8rem;
+    font-size: 0.9rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  /**************************/
+  /* NAV */
+  /**************************/
+  .main__nav {
+    height: 5rem;
+  }
+
+  .main__nav-link {
+    font-size: 1.2rem;
+    padding: 0 0.6rem;
+  }
+
+  .main__nav-link:first-child {
+    margin-right: 30rem;
+  }
+
+  .main__nav-link:nth-child(1) {
+    margin-left: -30rem;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  /**************************/
+  /* SECTION HERO */
+  /**************************/
+  .section__hero {
+    height: 40rem;
+  }
+
+  .hero__text-box {
+    top: 15rem;
+    max-width: 40rem;
+  }
+
+  .heading__primary {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    padding: 0.8rem 6rem;
+    margin-top: 10rem;
+    font-size: 1.6rem;
+  }
+
+  /**************************/
+  /* SECTION BENEFITS */
+  /**************************/
+  .benefits {
+    max-width: 70rem;
+  }
+
+  .benefit {
+    width: 16rem;
+    height: 7rem;
+    margin: 0 0.5rem;
+  }
+
+  .svg__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 0.4rem;
+  }
+
+  .svg__icon--text {
+    font-size: 0.9rem;
+  }
+
+  .svg__icon--text span {
+    margin-left: 0.4rem;
+  }
+
+  /**************************/
+  /* SECTION SUBSCRIBE */
+  /**************************/
+  .subscribe h2 {
+    font-size: 1.4rem;
+  }
+
+  .sub__el {
+    padding: 1rem;
+    margin: 0.4rem;
+  }
+
+  .sub__el p {
+    font-size: 1.1rem;
+  }
+
+  .sub__el span {
+    font-size: 0.9rem;
+  }
+
+  /**************************/
+  /* SECTION CERTIFIED */
+  /**************************/
+  .certified {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .certified__container p {
+    font-size: 1.2rem;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 0.5rem;
+  }
+
+  .usda__logo {
+    width: 7rem;
+    height: 6rem;
+    margin-right: 0.4rem;
+  }
+
+  /**************************/
+  /* SECTION ORDER */
+  /**************************/
+  .order h2 {
+    font-size: 3.6rem;
+  }
+
+  .order__info {
+    margin-right: 2rem;
+    max-width: 30%;
+  }
+
+  .order__info h3 {
+    font-size: 1.6rem;
+  }
+
+  .order__info p {
+    font-size: 1.3rem;
+  }
+
+  .order__images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carousel-controls {
+    bottom: 6rem;
+  }
+
+  .btn__order {
+    padding: 1rem 6rem;
+    font-size: 0.8rem;
+  }
+  /**************************/
+  /* SECTION PROCESS */
+  /**************************/
+
+  .left__side--frame1 {
+    left: 7rem;
+  }
+  .left__side--frame2 {
+    left: 8rem;
+  }
+  .right__side--frame1 {
+    position: absolute;
+    background: none;
+    top: 28rem;
+    right: 7rem;
+  }
+  .right__side--frame2 {
+    right: 7rem;
+  }
+  .midle__frame--dot1 {
+    display: none;
+  }
+  .midle__frame--dot2 {
+    display: none;
+  }
+
+  .left__frame--dot1 {
+    left: 7rem;
+  }
+  .left__frame--dot2 {
+    left: 7rem;
+  }
+  .right__frame--dot1 {
+    right: 7rem;
+  }
+  .right__frame--dot2 {
+    right: 7rem;
+  }
+
+  .text__framed--first {
+    left: 5rem;
+  }
+
+  .first__buble--icon {
+    right: 58rem;
+  }
+
+  .second__buble--icon {
+    right: 58rem;
+  }
+
+  .third__buble--icon {
+    right: 58rem;
+  }
+
+  .fourth__buble--icon {
+    right: 58rem;
+  }
+
+  .text__framed--second {
+    right: 5rem;
+  }
+
+  .text__framed--third {
+    left: 5rem;
+  }
+
+  .text__framed--fourth {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 70em) {
+  /**************************/
+  /* SECTION PROCESS */
+  /**************************/
+  .first__buble--icon {
+    right: 48rem;
+  }
+
+  .second__buble--icon {
+    right: 48rem;
+  }
+
+  .third__buble--icon {
+    right: 48rem;
+  }
+
+  .fourth__buble--icon {
+    right: 48rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 58em) {
+  /**************************/
+  /* NAV */
+  /**************************/
+  .main__nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    position: relative;
+    color: #0b0a0c;
+  }
+
+  .main__nav-link {
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 0 5rem;
+    font-weight: 400;
+    align-items: center;
+  }
+
+  .main__nav-link:first-child {
+    margin-right: 30rem;
+  }
+
+  .main__nav-link:nth-child(1) {
+    margin-left: -30rem;
+  }
+
+  /**************************/
+  /* SECTION HERO */
+  /**************************/
+  .section__hero {
+    height: 120rem;
+    background-image: url("../imgs/tablet main img.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero__text-box {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    max-width: 50rem;
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .heading__primary {
+    font-size: 5.8rem;
+    margin-top: 35rem;
+    line-height: 1.1;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  .btn {
+    padding: 2rem 14rem;
+    font-size: 2.2rem;
+    margin-top: 25rem;
+  }
+  /**************************/
+  /* SECTION BENEFITS */
+  /**************************/
+
+  .benefits {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .benefit {
+    height: 15rem;
+    width: 20rem;
+    flex-direction: column;
+  }
+
+  .svg__icon {
+    width: 4.9rem;
+    height: 4.8rem;
+  }
+
+  .svg__icon--text {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  /**************************/
+  /* SECTION SUBSCRIBE */
+  /**************************/
+
+  .subscribe h2 {
+    font-size: 3rem;
+  }
+
+  .sub__el {
+    padding: 3rem;
+  }
+
+  .sub__el:hover {
+    transform: scale(1.1);
+  }
+
+  .sub__el svg {
+    margin-bottom: 1rem;
+    height: 2.9rem;
+    width: 2.9rem;
+  }
+
+  .sub__el p span {
+    font-size: 1.5rem;
+  }
+  /**************************/
+  /* SECTION TRANSFORM */
+  /**************************/
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20rem;
+  }
+
+  .transform__el p {
+    font-size: 1.4rem;
+    width: 13.5rem;
+  }
+  .transform__el--5 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .transform__el--2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  /**************************/
+  /* SECTION CERTIFIED */
+  /**************************/
+  .certified__container p {
+    max-width: 27rem;
+  }
+  /**************************/
+  /* SECTION ORDER */
+  /**************************/
+  .order {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .order h2 {
+    padding-bottom: 0;
+    padding-top: 1.5rem;
+    font-size: 5rem;
+  }
+
+  .order__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .order__info {
+    text-align: center;
+    max-width: 70rem;
+  }
+
+  .order__info p {
+    font-size: 2.2rem;
+    margin: 0 1rem;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .order__info h3 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+
+  .order__images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 0;
+    max-width: 50%;
+    margin-top: 4rem;
+  }
+
+  .order__images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 60%;
+  }
+  /**************************/
+  /* SECTION PROCESS */
+  /**************************/
+
+  .left__side--frame1 {
+    left: 7rem;
+  }
+  .left__side--frame2 {
+    left: 8rem;
+  }
+  .right__side--frame1 {
+    position: absolute;
+    background: none;
+    top: 28rem;
+    right: 7rem;
+  }
+  .right__side--frame2 {
+    right: 7rem;
+  }
+  .midle__frame--dot1 {
+    position: absolute;
+    left: 46.7rem;
+  }
+  .midle__frame--dot2 {
+    left: 47.2rem;
+  }
+
+  .left__frame--dot1 {
+    left: 7rem;
+  }
+  .left__frame--dot2 {
+    left: 7rem;
+  }
+  .right__frame--dot1 {
+    right: 7rem;
+  }
+  .right__frame--dot2 {
+    right: 7rem;
+  }
+
+  .text__framed--first {
+    left: 5rem;
+  }
+
+  .first__buble--icon {
+    right: 45rem;
+  }
+
+  .second__buble--icon {
+    right: 45rem;
+  }
+
+  .third__buble--icon {
+    right: 45rem;
+  }
+
+  .fourth__buble--icon {
+    right: 45rem;
+  }
+
+  .text__framed--second {
+    right: 5rem;
+  }
+
+  .text__framed--third {
+    left: 5rem;
+  }
+
+  .text__framed--fourth {
+    right: 4rem;
+  }
+  /**************************/
+  /* SECTION FAQ'S */
+  /**************************/
+  .faq__container {
+    padding: 2rem 15rem;
+  }
+
+  .faq__container h2 {
+    padding-top: 3rem;
+    text-align: center;
+  }
+
+  .faq__items--container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .faq-item {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .faq-item h3 {
+    margin-top: 2rem;
+  }
+
+  .faq-item p:first-child {
+    margin-top: 1.5rem;
+  }
+}
+/**************************/
+/* BELOW  (Phones) */
+/**************************/
+@media (max-width: 50em) {
+  /**************************/
+  /* SECTION HERO */
+  /**************************/
+  .section__hero {
+    height: 120rem;
+    background-image: url("../imgs/tablet main img.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero__text-box {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    max-width: 50rem;
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .heading__primary {
+    font-size: 2.8rem;
+    margin-top: 35rem;
+    line-height: 1.1;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  .btn {
+    padding: 1.2rem 5rem;
+    font-size: 1.8rem;
+    margin-top: 25rem;
+  }
+  .main__nav {
+    position: relative;
+  }
+
+  .main__nav-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f5f5f5;
+    z-index: 100;
+    padding: 2rem 0;
+    width: 100%;
+  }
+
+  .main__nav-list.active {
+    display: flex;
+  }
+  .main__nav-link:first-child {
+    margin-left: 1rem;
+  }
+
+  .burger {
+    display: flex;
+    margin-left: 10rem;
+  }
+
+  /**************************/
+  /* SECTION BENEFITS */
+  /**************************/
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+
+  .benefit {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    max-width: 80%;
+    height: 17rem;
+    padding: 1rem;
+  }
+
+  .svg__icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .svg__icon--text {
+    font-size: 2.8rem;
+  }
+  /**************************/
+  /* SECTION SUBSCRIBE */
+  /**************************/
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container > * {
+    width: 100%;
+  }
+
+  .sub__el {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .sub__el p {
+    margin-left: 2rem;
+    display: flex;
+  }
+  .subscribe {
+    position: relative;
+  }
+
+  .subscribe h2 {
+    position: absolute;
+    rotate: -90deg;
+    right: 10px;
+    top: 50%;
+    transform: translateY(300%);
+    white-space: nowrap;
+  }
+  /**************************/
+  /* SECTION TRANSFORM */
+  /**************************/
+  .section__transform {
+    padding: 3rem 0;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 41.4rem;
+    align-items: center;
+  }
+
+  .transform__el p {
+    font-size: 1.4rem;
+    white-space: normal;
+    min-width: 30rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+  }
+  /**************************/
+  /* SECTION CERTIFIED */
+  /**************************/
+  .certified__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .usda__logo {
+    width: 10.8rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  /**************************/
+  /* SECTION ORDER */
+  /**************************/
+  .order__images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+  }
+
+  /**************************/
+  /* SECTION PROCESS */
+  /**************************/
+
+  .left__side--frame1 {
+    display: none;
+  }
+  .left__side--frame2 {
+    display: none;
+  }
+  .right__side--frame1 {
+    display: none;
+  }
+  .right__side--frame2 {
+    display: none;
+  }
+  .midle__frame--dot1 {
+    display: none;
+  }
+  .midle__frame--dot2 {
+    display: none;
+  }
+
+  .left__frame--dot1 {
+    display: none;
+  }
+  .left__frame--dot2 {
+    display: none;
+  }
+  .right__frame--dot1 {
+    display: none;
+  }
+  .right__frame--dot2 {
+    display: none;
+  }
+
+  .first__buble--icon {
+    top: -4rem;
+    left: 5rem;
+  }
+
+  .second__buble--icon {
+    top: 19rem;
+    right: 5rem;
+  }
+
+  .third__buble--icon {
+    top: 44rem;
+    left: 5rem;
+  }
+
+  .fourth__buble--icon {
+    top: 69rem;
+    right: 4rem;
+  }
+
+  .text__framed--first {
+    top: 2rem;
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .text__framed--first p {
+    font-size: 1.2rem;
+  }
+
+  .text__framed--second {
+    top: 25rem;
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: right;
+  }
+  .text__framed--second p {
+    font-size: 1.2rem;
+  }
+
+  .text__framed--third {
+    top: 50rem;
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .text__framed--third p {
+    font-size: 1.2rem;
+  }
+
+  .text__framed--fourth {
+    top: 75rem;
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: right;
+  }
+
+  .text__framed--fourth p {
+    font-size: 1.2rem;
+  }
+
+  .frame {
+    display: none;
+  }
+  .process {
+    height: 135vh;
+  }
+  .arrow__one {
+    position: absolute;
+    display: inline;
+    top: 21rem;
+    left: 18rem;
+  }
+  .arrow__two {
+    position: absolute;
+    display: inline;
+    top: 44rem;
+    right: 22rem;
+  }
+  .arrow__three {
+    position: absolute;
+    display: inline;
+    top: 67rem;
+    left: 22rem;
+  }
+  /**************************/
+  /* SECTION FAQ'S */
+  /**************************/
+  .faq__items--container {
+    min-width: 300%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 3rem;
+  }
+}
+
+/************************************* MISSION PAGE STYLE *************************************/
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 58em) {
+  .mission__grid {
+    padding: 3rem 2rem;
+  }
+
+  .mission__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    min-height: 108vh;
+  }
+  .mission__row--video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .mission__img {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid__heading {
+    font-size: 4.8rem;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 4rem;
+  }
+
+  .grid__text {
+    font-size: 2rem;
+    width: 100%;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .mission__video {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}

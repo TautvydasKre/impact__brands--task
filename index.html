@@ -16,30 +16,32 @@
   <body>
     <header class="header">
       <nav class="main__nav">
+        <button class="burger" aria-label="Toggle navigation">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+        <a href="./index.html">
+          <img class="logo" alt="Company logo" src="./assets/imgs/LOGO.png" />
+        </a>
         <ul class="main__nav-list">
           <li>
-            <a class="main__nav-link margin__left--lg" href="#how">shop</a>
+            <a class="main__nav-link margin__left--lg" href="">shop</a>
           </li>
-          <li><a class="main__nav-link" href="#meals">mission</a></li>
           <li>
-            <a href="#">
-              <img
-                class="logo"
-                alt="Company logo"
-                src="./assets/imgs/LOGO.png"
-              />
-            </a>
+            <a class="main__nav-link" href="./mission.html">mission</a>
           </li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="section__hero">
         <div class="hero__img-box">
           <div class="hero__text-box">
             <h1 class="heading__primary">
-              New year, new "you"<br />
-              with [product name]
+              <span>new year, new "you"</span><br />
+              <span>with [product name]</span>
             </h1>
             <button class="btn" type="button">try [product name]</button>
           </div>
@@ -486,6 +488,9 @@
         <div class="container">
           <h2>meticulous methodical process</h2>
           <div class="svg__frame--container">
+            <img src="./assets/svgs/arrow1.svg" class="arrow__one" />
+            <img src="./assets/svgs/arrow2.svg" class="arrow__two" />
+            <img src="./assets/svgs/arrow1.svg" class="arrow__three" />
             <img
               src="./assets/svgs/Vector (9).svg"
               class="midle__frame--dot1"
@@ -568,6 +573,156 @@
                 nourishing your body with the right fuel.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq__container">
+        <h2>FAQ's</h2>
+        <div class="faq__items--container">
+          <div class="faq-item">
+            <h3 class="faq-question">
+              What are the Effective ingredients in [product name]?
+              <img src="./assets/svgs/faq__arrow--down.svg" class="faq-arrow" />
+            </h3>
+            <article class="faq-answer">
+              <p>Pellentesque vitae convallis quam, in ultricies leo:</p>
+
+              <h3>Lorem ipsum dolor sit amet:</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                gravida sollicitudin diam, vestibulum placerat nisl finibus ut.
+                Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit
+                non, sodales in tortor. Nam purus sem, blandit non justo ac,
+                ornare tempor quam. Morbi pharetra vehicula ornare. Proin
+                gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+              </p>
+
+              <h3>Curabitur gravida ullamcorper dui:</h3>
+              <p>
+                Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id
+                est eu cursus. Mauris ut elit quis nunc eleifend egestas in ac
+                lorem. Pellentesque - vitae convallis quam, in ultricies leo.
+                Curabitur gravida ullamcorper dui. Aliquam velit arcu, ultrices
+                nec mauris a, vehicula fermentum nisi. Donec commodo - nisl at
+                magna congue volutpat. Suspendisse sed nulla ultricies,
+                elementum risus venenatis, eleifend sem. Vestibulum rutrum ut
+                lectus id dignissim. Curabitur eros diam - bibendum in ipsum ut,
+                posuere suscipit magna. Maecenas at congue purus, vel facilisis
+                odio. Praesent scelerisque, ipsum vel ultricies congue, odio
+                turpis pharetra tellus, ac auctor orci tortor volutpat lectus.
+                Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui
+                bibendum.
+              </p>
+            </article>
+          </div>
+          <!-- Repeat for other FAQ items -->
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Other question?
+              <img src="./assets/svgs/faq__arrow--down.svg" class="faq-arrow" />
+            </h3>
+            <article class="faq-answer">
+              <p>Pellentesque vitae convallis quam, in ultricies leo:</p>
+
+              <h3>Lorem ipsum dolor sit amet:</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                gravida sollicitudin diam, vestibulum placerat nisl finibus ut.
+                Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit
+                non, sodales in tortor. Nam purus sem, blandit non justo ac,
+                ornare tempor quam. Morbi pharetra vehicula ornare. Proin
+                gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+              </p>
+
+              <h3>Curabitur gravida ullamcorper dui:</h3>
+              <p>
+                Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id
+                est eu cursus. Mauris ut elit quis nunc eleifend egestas in ac
+                lorem. Pellentesque - vitae convallis quam, in ultricies leo.
+                Curabitur gravida ullamcorper dui. Aliquam velit arcu, ultrices
+                nec mauris a, vehicula fermentum nisi. Donec commodo - nisl at
+                magna congue volutpat. Suspendisse sed nulla ultricies,
+                elementum risus venenatis, eleifend sem. Vestibulum rutrum ut
+                lectus id dignissim. Curabitur eros diam - bibendum in ipsum ut,
+                posuere suscipit magna. Maecenas at congue purus, vel facilisis
+                odio. Praesent scelerisque, ipsum vel ultricies congue, odio
+                turpis pharetra tellus, ac auctor orci tortor volutpat lectus.
+                Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui
+                bibendum.
+              </p>
+            </article>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Other question?
+              <img src="./assets/svgs/faq__arrow--down.svg" class="faq-arrow" />
+            </h3>
+            <article class="faq-answer">
+              <p>Pellentesque vitae convallis quam, in ultricies leo:</p>
+
+              <h3>Lorem ipsum dolor sit amet:</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                gravida sollicitudin diam, vestibulum placerat nisl finibus ut.
+                Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit
+                non, sodales in tortor. Nam purus sem, blandit non justo ac,
+                ornare tempor quam. Morbi pharetra vehicula ornare. Proin
+                gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+              </p>
+
+              <h3>Curabitur gravida ullamcorper dui:</h3>
+              <p>
+                Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id
+                est eu cursus. Mauris ut elit quis nunc eleifend egestas in ac
+                lorem. Pellentesque - vitae convallis quam, in ultricies leo.
+                Curabitur gravida ullamcorper dui. Aliquam velit arcu, ultrices
+                nec mauris a, vehicula fermentum nisi. Donec commodo - nisl at
+                magna congue volutpat. Suspendisse sed nulla ultricies,
+                elementum risus venenatis, eleifend sem. Vestibulum rutrum ut
+                lectus id dignissim. Curabitur eros diam - bibendum in ipsum ut,
+                posuere suscipit magna. Maecenas at congue purus, vel facilisis
+                odio. Praesent scelerisque, ipsum vel ultricies congue, odio
+                turpis pharetra tellus, ac auctor orci tortor volutpat lectus.
+                Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui
+                bibendum.
+              </p>
+            </article>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Other question?
+              <img src="./assets/svgs/faq__arrow--down.svg" class="faq-arrow" />
+            </h3>
+            <article class="faq-answer">
+              <p>Pellentesque vitae convallis quam, in ultricies leo:</p>
+
+              <h3>Lorem ipsum dolor sit amet:</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                gravida sollicitudin diam, vestibulum placerat nisl finibus ut.
+                Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit
+                non, sodales in tortor. Nam purus sem, blandit non justo ac,
+                ornare tempor quam. Morbi pharetra vehicula ornare. Proin
+                gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+              </p>
+
+              <h3>Curabitur gravida ullamcorper dui:</h3>
+              <p>
+                Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id
+                est eu cursus. Mauris ut elit quis nunc eleifend egestas in ac
+                lorem. Pellentesque - vitae convallis quam, in ultricies leo.
+                Curabitur gravida ullamcorper dui. Aliquam velit arcu, ultrices
+                nec mauris a, vehicula fermentum nisi. Donec commodo - nisl at
+                magna congue volutpat. Suspendisse sed nulla ultricies,
+                elementum risus venenatis, eleifend sem. Vestibulum rutrum ut
+                lectus id dignissim. Curabitur eros diam - bibendum in ipsum ut,
+                posuere suscipit magna. Maecenas at congue purus, vel facilisis
+                odio. Praesent scelerisque, ipsum vel ultricies congue, odio
+                turpis pharetra tellus, ac auctor orci tortor volutpat lectus.
+                Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui
+                bibendum.
+              </p>
+            </article>
           </div>
         </div>
       </section>
