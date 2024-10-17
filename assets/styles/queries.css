@@ -990,7 +990,7 @@
     display: none;
   }
   .process {
-    height: 160vh;
+    height: 170vh;
   }
   .arrow__one {
     position: absolute;
@@ -1037,7 +1037,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 4rem;
-    min-height: 140vh;
+    min-height: 160vh;
   }
   .mission__row--video {
     display: flex;
@@ -1077,5 +1077,20 @@
     margin: 2rem 0;
     border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 50em) {
+  .grid__heading {
+    font-size: 2.8rem;
+  }
+  .grid__text {
+    font-size: 1.6rem;
+  }
+  .mission__row {
+    min-height: 225vh;
+  }
+  ul {
+    margin-top: 2rem;
   }
 }

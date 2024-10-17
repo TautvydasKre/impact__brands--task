@@ -805,10 +805,3 @@ h2 {
   align-items: center;
   text-align: left;
 }
-.main__nav-list {
-  display: none;
-}
-
-.burger.active + .main__nav-list {
-  display: flex;
-}
