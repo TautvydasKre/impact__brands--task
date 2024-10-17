@@ -49,5 +49,5 @@ const burger = document.querySelector(".burger");
 const navList = document.querySelector(".main__nav-list");
 
 burger.addEventListener("click", () => {
-  navList.classList.toggle("active"); // Toggle the active class on click
+  navList.classList.toggle("active");
 });

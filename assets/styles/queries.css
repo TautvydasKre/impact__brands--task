@@ -743,6 +743,11 @@
     font-size: 1.8rem;
     margin-top: 25rem;
   }
+
+  /**************************/
+  /* NAV */
+  /**************************/
+
   .main__nav {
     position: relative;
   }
@@ -985,7 +990,7 @@
     display: none;
   }
   .process {
-    height: 140vh;
+    height: 160vh;
   }
   .arrow__one {
     position: absolute;
@@ -1032,7 +1037,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 4rem;
-    min-height: 135vh;
+    min-height: 140vh;
   }
   .mission__row--video {
     display: flex;
