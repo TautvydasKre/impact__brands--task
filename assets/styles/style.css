@@ -799,3 +799,9 @@ h2 {
   max-height: 45rem;
   overflow: hidden;
 }
+.mission__row--video {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+}
